@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.container{
+    width: 90vw;
+    display: flex;
+    height: 80vh;
+    
+}
+.image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: none;  
+}
+.active{
+    width: 100%;
+    display: inline;
+    transition-duration: 10s;
+}
+.btn1 {
+    position: absolute;
+    bottom: 412px;
+    right: 148px;
+}
+.btn2{
+    position: absolute;
+    bottom: 412px;
+    left: 148px;
+}
